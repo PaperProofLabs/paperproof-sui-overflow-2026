@@ -9,6 +9,11 @@ works. This submission repository is intended to help reviewers locate the
 project's contracts, SDKs, application, deployment information, slides, demo
 materials, and supporting documentation.
 
+PaperProof Protocol refers to the open protocol layer and official deployed
+protocol instances. PaperProof Labs refers to the originating team and
+maintainer of the official interface, SDKs, reference indexer, documentation,
+and brand identity.
+
 ## Repository Role
 
 This repository is a navigation and submission repository. It is not the sole
@@ -57,6 +62,9 @@ terms and licenses.
 References to third-party platforms or ecosystems are for interoperability,
 deployment, demo, and explanatory purposes only. They do not imply endorsement
 unless explicitly stated by the relevant rights holder.
+
+For user-content, app-display, takedown, wallet, AI, and risk boundaries, see
+docs/LEGAL_AND_SAFETY_BOUNDARIES.md.
 
 ## No Warranty
 

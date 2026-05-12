@@ -9,6 +9,11 @@ This repository is the judge-facing entry point. The implementation is split
 across focused repositories so contracts, SDKs, frontend code, documentation,
 and pitch materials can evolve independently.
 
+PaperProof Protocol refers to the open protocol layer and official deployed
+protocol instances. PaperProof Labs refers to the originating team and
+maintainer of the official interface, SDKs, reference indexer, documentation,
+and brand identity.
+
 ## Quick Links
 
 - Live app: TODO
@@ -74,3 +79,6 @@ permissively open-source. Public availability supports transparency, review,
 research, and interoperability, but does not grant rights to copy, modify,
 redeploy, or commercialize the contract source except as expressly permitted by
 the relevant contract license.
+
+For user-content, app-display, takedown, wallet, AI, and risk boundaries, see
+[docs/LEGAL_AND_SAFETY_BOUNDARIES.md](./docs/LEGAL_AND_SAFETY_BOUNDARIES.md).
