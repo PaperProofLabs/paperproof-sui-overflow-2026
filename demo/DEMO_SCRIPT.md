@@ -1,32 +1,35 @@
 # Demo Script
 
-Target length: TODO
+Target length: 4 to 5 minutes.
 
-## 0:00 - 0:20 Opening
+## 0:00 - 1:30 Slides
 
-TODO: State the problem and the one-line PaperProof explanation.
+Open with the problem: important research and software artifacts need durable,
+verifiable identity, not just ordinary links. Introduce PaperProof as a Sui +
+Walrus protocol for versioned artifacts, community context, SDK access, and
+agent-native workflows.
 
-## 0:20 - 0:50 Explore
+## 1:30 - 2:20 Website Tour
 
-TODO: Show the official app and artifact type cards.
+Show [paperproof.site](https://paperproof.site/), the Explore view, artifact
+categories, official artifacts, and a real artifact detail page. Point out
+version history, content access, metadata, comments, and verification-oriented
+fields.
 
-## 0:50 - 1:30 Artifact Detail
+## 2:20 - 3:20 Protocol Operation
 
-TODO: Open a real artifact, show version history, download link, comments, and
-wallet-safe actions.
+Show one concrete workflow: publish, add version, comment, like, or verify an
+artifact. Emphasize that the website signs Sui transactions and stores large
+artifact bytes through Walrus.
 
-## 1:30 - 2:00 Publish or Interaction
+## 3:20 - 4:10 Developer Surface
 
-TODO: Show a wallet-signed action or Sui Explorer evidence.
+Show the three SDK publications: TypeScript on npm, Python on PyPI, and Rust on
+crates.io. Then show the PaperProof Skill repository to demonstrate that AI
+agents can operate the protocol directly.
 
-## 2:00 - 2:25 SDK / Developer Surface
+## 4:10 - 5:00 Closing
 
-TODO: Show npm package, SDK snippet, or test output.
-
-## 2:25 - 2:50 Why Sui and Walrus
-
-TODO: Show the architecture slide or explain the Sui/Walrus split.
-
-## 2:50 - 3:00 Closing
-
-TODO: Summarize why PaperProof can become long-lived artifact infrastructure.
+Close with the main claim: PaperProof turns papers, datasets, reports, and
+software releases into durable protocol artifacts that humans, apps, indexers,
+and AI agents can all verify and build on.

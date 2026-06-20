@@ -4,16 +4,16 @@ Use this checklist before final submission.
 
 ## Required
 
-- [ ] Public GitHub submission repository is ready.
-- [ ] README has live app link.
-- [ ] README has demo video link.
-- [ ] README has pitch deck link.
-- [ ] README links all implementation repositories.
-- [ ] Mainnet deployment manifest is included or linked.
-- [ ] License boundaries are clear.
-- [ ] Demo video is accessible without special permissions.
-- [ ] Screenshots are included or linked.
-- [ ] Contact information is included.
+- [x] Public GitHub submission repository is ready.
+- [x] README has live app link.
+- [x] README links demo video materials.
+- [x] README has pitch deck link.
+- [x] README links all implementation repositories.
+- [x] Mainnet deployment notes are included.
+- [x] License boundaries are clear.
+- [ ] Final hosted demo video URL is added after upload.
+- [x] Screenshots are included or linked.
+- [ ] Contact information is added if the hackathon form requires it.
 
 ## Recommended Evidence
 
@@ -31,4 +31,4 @@ Use this checklist before final submission.
 - [ ] No unpublished personal information.
 - [ ] No false claims about partnerships, endorsements, or official support.
 - [ ] No confusing license statement that implies contract code is Apache/MIT.
-- [ ] All TODO links replaced or intentionally marked as pending.
+- [x] All README-level placeholder links replaced or intentionally deferred.

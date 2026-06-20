@@ -2,66 +2,67 @@
 
 ## One-Line Summary
 
-PaperProof Protocol is a Sui + Walrus protocol for durable, verifiable, and
-community-governed research artifacts and long-lived digital works.
+PaperProof Protocol is a Sui + Walrus protocol for durable, verifiable,
+versioned, and community-governed research artifacts and long-lived digital
+works.
 
 ## Problem
 
-TODO: Explain why important digital works need more than ordinary links,
-centralized web pages, or isolated storage blobs.
+Important digital works are often treated as ordinary web pages or isolated
+files. That is not enough for artifacts that need to remain citable,
+inspectable, updateable, and discussable over time.
 
-Suggested points:
-
-- Links break.
-- Files move.
-- Communities lose context.
-- Version history is fragmented.
-- Discussion and governance are disconnected from the artifact.
-- Developers need protocol-level events and SDKs, not only web pages.
+- Links break or silently point to changed content.
+- Large files and metadata are often stored in separate systems.
+- Version history is fragmented across websites, storage providers, and git
+  releases.
+- Community discussion and governance are usually detached from the artifact.
+- Developers need protocol-level events, SDKs, and verifiable references rather
+  than screenshots of a web page.
 
 ## Solution
 
-TODO: Explain how PaperProof gives an artifact a durable protocol identity.
+PaperProof gives each work a stable on-chain identity on Sui and binds each
+version to durable Walrus content. The protocol records artifact series,
+version metadata, content hashes, blob references, comments, likes/dislikes,
+governance hooks, and indexer-friendly events.
 
-Suggested points:
-
-- Stable `ArtifactSeries` identity on Sui.
-- Typed version records.
-- Walrus-backed content.
-- Comment trees and likes/dislikes.
-- Governance and PPRF voting.
-- SDKs for app developers, data users, and indexer builders.
-- Static app hosted with low maintenance goals.
+The website is one access layer. SDKs and the PaperProof Skill expose the same
+protocol to developers, scripts, indexers, and AI agents.
 
 ## Target Users
 
-TODO: Fill in target users and their first useful action.
+- Researchers publishing preprints, papers, technical reports, or datasets.
+- Builders publishing software releases or reproducible project artifacts.
+- Communities discussing, curating, and governing artifact records.
+- Developers building portals, bots, indexers, dashboards, and verification
+  tools.
+- AI agents that need durable, machine-readable, verifiable artifact state.
 
-Examples:
+## Current Status
 
-- Researchers publishing preprints, datasets, or reports.
-- Builders publishing software releases or technical artifacts.
-- Communities discussing and curating artifacts.
-- Developers building portals, indexers, bots, and dashboards.
-- Agents that need durable, verifiable content references.
+- Mainnet contracts: deployed on Sui mainnet.
+- Official static app: live at [https://paperproof.site/](https://paperproof.site/).
+- TypeScript SDK: published as [@paperproof/sdk-ts](https://www.npmjs.com/package/@paperproof/sdk-ts).
+- Python SDK: published as [paperproof-sdk-py](https://pypi.org/project/paperproof-sdk-py/).
+- Rust SDK: published as [paperproof-sdk-rs](https://crates.io/crates/paperproof-sdk-rs).
+- Papers: whitepaper, yellow paper, and academic paper in
+  [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers).
+- Slides: hackathon pitch deck in
+  [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides).
+- Agent workflow: community-facing
+  [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill).
 
-## What Exists Now
+## Hackathon Scope
 
-TODO: Replace with exact current status.
+This submission focuses on the deployed protocol, official website, SDKs,
+Walrus-backed artifact storage, Sui mainnet verification, and agent-native
+PaperProof workflows. It is presented as a working protocol stack rather than a
+single demo script.
 
-- Mainnet contracts: TODO
-- Official static app: TODO
-- TypeScript SDK: TODO
-- Python SDK: TODO
-- Rust SDK: TODO
-- Deployment manifest: TODO
-- Demo deck: TODO
-- Mainnet evidence: TODO
+## Current Limitations
 
-## What Is In Scope for the Hackathon
-
-TODO: Describe the submitted scope clearly.
-
-## What Is Not Yet In Scope
-
-TODO: Be honest about limitations and future work.
+PaperProof is still early-stage infrastructure. The current website and SDKs
+cover the core workflow, but broader ecosystem adoption will require more
+indexer services, richer governance operations, additional app integrations,
+and more community-published artifacts.

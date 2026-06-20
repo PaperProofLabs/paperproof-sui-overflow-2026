@@ -2,31 +2,35 @@
 
 ## Suggested Evaluation Path
 
-1. Read the README.
-2. Open the live app.
-3. Watch the demo video.
-4. Inspect the pitch deck.
-5. Check the contracts and deployment manifest.
-6. Check the TypeScript SDK and npm package.
-7. Optional: inspect Python and Rust SDKs for analytics and indexer use cases.
+1. Read the root [README](../README.md).
+2. Open the live app at [https://paperproof.site/](https://paperproof.site/).
+3. Watch the demo video or inspect the
+   [demo video materials](https://github.com/PaperProofLabs/paperproof-demo-video).
+4. Inspect the [pitch deck](https://github.com/PaperProofLabs/paperproof-slides).
+5. Check the [contracts](https://github.com/PaperProofLabs/paperproof-contracts)
+   and [deployment notes](../deployments/README.md).
+6. Check the SDK packages on npm, PyPI, and crates.io.
 
 ## What To Look For
 
-- Real mainnet deployment and transaction evidence.
-- A practical static app, not just a contract demo.
-- Walrus usage for durable content and site hosting.
-- SDK usability for third-party developers.
-- Indexer and event design for long-term ecosystem growth.
-- Clear license boundaries between source-available contracts and open SDKs.
+- Real Sui mainnet deployment and verifiable package/object IDs.
+- Walrus usage for durable artifact bytes and static-site-oriented delivery.
+- A practical website, not just a contract-only demo.
+- Artifact versioning with content hashes and blob references.
+- Published SDKs for TypeScript, Python, and Rust.
+- Agent-native operation through PaperProof Skill.
+- Event and object design suitable for indexers and ecosystem integrations.
 
 ## Track Fit
 
-TODO: Explain fit with the Walrus track and any secondary fit with Agentic Web.
+PaperProof fits the Sui/Walrus infrastructure story because it uses Sui for
+object identity, version records, events, comments, governance, and interaction
+state, while using Walrus for large artifact content. It also fits agentic
+workflows: the PaperProof Skill lets an AI agent package, publish, update,
+query, and verify protocol artifacts directly for users.
 
-Suggested points:
+## Important Boundary
 
-- Walrus stores artifacts and can host the official site.
-- Sui gives artifacts object identity, events, governance, and low-cost
-  interactions.
-- PaperProof Copilot demonstrates a browser-side protocol guide for user safety
-  and onboarding.
+The submission is multi-repository by design. This hub is the judge-facing
+entry point; the linked repositories are the canonical implementation sources
+for each component.
