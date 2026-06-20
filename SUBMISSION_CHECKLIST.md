@@ -6,12 +6,12 @@ Use this checklist before final submission.
 
 - [x] Public GitHub submission repository is ready.
 - [x] README has live app link.
-- [x] README links demo video materials.
+- [x] README links public demo video.
 - [x] README has pitch deck link.
 - [x] README links all implementation repositories.
 - [x] Mainnet deployment notes are included.
 - [x] License boundaries are clear.
-- [ ] Final hosted demo video URL is added after upload.
+- [x] Final hosted demo video URL is added.
 - [x] Screenshots are included or linked.
 - [ ] Contact information is added if the hackathon form requires it.
 

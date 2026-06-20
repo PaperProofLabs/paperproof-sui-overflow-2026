@@ -50,7 +50,7 @@ protocol to developers, scripts, indexers, and AI agents.
   [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers).
 - Slides: hackathon pitch deck in
   [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides).
-- Agent workflow: community-facing
+- Skill for AI/Agent: community-facing
   [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill).
 
 ## Hackathon Scope

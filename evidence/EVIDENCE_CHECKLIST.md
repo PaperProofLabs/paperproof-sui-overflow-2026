@@ -7,7 +7,7 @@ and linked repositories.
 
 - Live website: [https://paperproof.site/](https://paperproof.site/)
 - Website repository: [paperproof-app](https://github.com/PaperProofLabs/paperproof-app)
-- Screenshot repository: [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs)
+- Screenshots in this submission repo: [screenshots/](../screenshots/)
 - Slides with website screenshots:
   [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides)
 
@@ -26,15 +26,15 @@ and linked repositories.
 - npm: [@paperproof/sdk-ts](https://www.npmjs.com/package/@paperproof/sdk-ts)
 - PyPI: [paperproof-sdk-py](https://pypi.org/project/paperproof-sdk-py/)
 - crates.io: [paperproof-sdk-rs](https://crates.io/crates/paperproof-sdk-rs)
-- SDK screenshots:
-  [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs)
+- SDK screenshots: [screenshots/sdks/](../screenshots/sdks/)
 
 ## Materials Evidence
 
 - Papers: [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers)
 - Slides: [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides)
-- Demo video materials:
-  [paperproof-demo-video](https://github.com/PaperProofLabs/paperproof-demo-video)
+- Demo video: [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY)
+- Formal verification by Sui Prover:
+  [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge)
 
 ## Security Review Before Submission
 

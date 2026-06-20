@@ -10,13 +10,13 @@ and demo assets without wading through an artificial monorepo copy.
 | Area | Repository | Purpose |
 | --- | --- | --- |
 | Smart contracts | [paperproof-contracts](https://github.com/PaperProofLabs/paperproof-contracts) | Sui Move packages for publishing, comments, governance, PPRF, prompt registry, and Agent Memory registry. |
-| Formal verification | [paperproof-contracts-formal-verification](https://github.com/PaperProofLabs/paperproof-contracts-formal-verification) | Formal verification workstream for the contract codebase. |
+| Formal verification by Sui Prover | [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge) | Sui Prover work on the contract codebase. |
 | Official app | [paperproof-app](https://github.com/PaperProofLabs/paperproof-app) | Static website for artifact exploration, publishing, versioning, comments, governance, docs, and Copilot-assisted workflows. |
 | Reference indexer | [paperproof-indexer-reference](https://github.com/PaperProofLabs/paperproof-indexer-reference) | Reference indexing and event-consumption implementation. |
 | TypeScript SDK | [paperproof-sdk-ts](https://github.com/PaperProofLabs/paperproof-sdk-ts) | Browser and Node.js SDK for app builders, transaction helpers, query providers, and event parsing. |
 | Python SDK | [paperproof-sdk-py](https://github.com/PaperProofLabs/paperproof-sdk-py) | Python SDK for scripting, notebooks, analytics, exports, and automation. |
 | Rust SDK | [paperproof-sdk-rs](https://github.com/PaperProofLabs/paperproof-sdk-rs) | Rust SDK for systems, services, indexers, and high-performance integrations. |
-| Agent skill | [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill) | Community-facing Codex/agent skill for protocol-native publish, update, query, and verification workflows. |
+| Skill for AI/Agent | [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill) | Community-facing AI/agent skill for protocol-native publish, update, query, and verification workflows. |
 
 ## Materials
 
@@ -24,8 +24,8 @@ and demo assets without wading through an artificial monorepo copy.
 | --- | --- | --- |
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) | Whitepaper, yellow paper, and academic paper. |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) | Hackathon pitch deck and figures. |
-| Docs/screenshots | [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs) | Documentation screenshots, SDK release screenshots, and visual evidence. |
-| Demo video | [paperproof-demo-video](https://github.com/PaperProofLabs/paperproof-demo-video) | Recording plan, subtitles, extracted frames, preview images, and demo video production materials. |
+| Screenshots | [screenshots/](screenshots/) | Website, SDK, GitHub organization, formal verification, and Skill screenshots copied into this submission repository. |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) | Public demo video for the hackathon submission. |
 | Submission hub | [paperproof-sui-overflow-2026](https://github.com/PaperProofLabs/paperproof-sui-overflow-2026) | Judge-facing table of contents and deployment evidence. |
 
 ## Published Packages

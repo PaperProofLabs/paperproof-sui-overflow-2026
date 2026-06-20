@@ -112,12 +112,12 @@ mockup or contract demo.
 | TypeScript SDK | Published on [npm](https://www.npmjs.com/package/@paperproof/sdk-ts) |
 | Python SDK | Published on [PyPI](https://pypi.org/project/paperproof-sdk-py/) |
 | Rust SDK | Published on [crates.io](https://crates.io/crates/paperproof-sdk-rs) |
-| Agent workflow | [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill) |
+| Skill for AI/Agent | [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill) |
 | Contracts | [paperproof-contracts](https://github.com/PaperProofLabs/paperproof-contracts) |
-| Formal verification workstream | [paperproof-contracts-formal-verification](https://github.com/PaperProofLabs/paperproof-contracts-formal-verification) |
+| Formal verification by Sui Prover | [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge) |
 | Papers | [whitepaper, yellow paper, academic paper](https://github.com/PaperProofLabs/paperproof-papers) |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) |
-| Demo video materials | [paperproof-demo-video](https://github.com/PaperProofLabs/paperproof-demo-video) |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) |
 
 ## What Judges Can Verify Quickly
 
@@ -136,7 +136,7 @@ mockup or contract demo.
 | Live website | [paperproof.site](https://paperproof.site/) |
 | GitHub organization | [github.com/PaperProofLabs](https://github.com/PaperProofLabs) |
 | Project repo / submission hub | [paperproof-sui-overflow-2026](https://github.com/PaperProofLabs/paperproof-sui-overflow-2026) |
-| Demo video materials | [paperproof-demo-video](https://github.com/PaperProofLabs/paperproof-demo-video) |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) |
 | Pitch deck | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) |
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) |
 | Mainnet deployment notes | [deployments/README.md](deployments/README.md) |
@@ -146,7 +146,7 @@ mockup or contract demo.
 | Area | Repository |
 | --- | --- |
 | Sui Move contracts | [paperproof-contracts](https://github.com/PaperProofLabs/paperproof-contracts) |
-| Formal verification branch | [paperproof-contracts-formal-verification](https://github.com/PaperProofLabs/paperproof-contracts-formal-verification) |
+| Formal verification by Sui Prover | [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge) |
 | Official website | [paperproof-app](https://github.com/PaperProofLabs/paperproof-app) |
 | TypeScript SDK | [paperproof-sdk-ts](https://github.com/PaperProofLabs/paperproof-sdk-ts) |
 | Python SDK | [paperproof-sdk-py](https://github.com/PaperProofLabs/paperproof-sdk-py) |
@@ -156,7 +156,7 @@ mockup or contract demo.
 | Docs and screenshots | [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs) |
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) |
-| Demo video materials | [paperproof-demo-video](https://github.com/PaperProofLabs/paperproof-demo-video) |
+| Screenshots | [screenshots/](screenshots/) |
 
 See [REPOS.md](REPOS.md) for a fuller component-by-component map.
 
@@ -167,7 +167,6 @@ See [REPOS.md](REPOS.md) for a fuller component-by-component map.
 - [Repository map](REPOS.md)
 - [Deployment notes](deployments/README.md)
 - [Demo script](demo/DEMO_SCRIPT.md)
-- [Video plan](demo/VIDEO_PLAN.md)
 - [Evidence checklist](evidence/EVIDENCE_CHECKLIST.md)
 - [Judging checklist](SUBMISSION_CHECKLIST.md)
 

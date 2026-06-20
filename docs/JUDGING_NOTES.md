@@ -4,8 +4,7 @@
 
 1. Read the root [README](../README.md).
 2. Open the live app at [https://paperproof.site/](https://paperproof.site/).
-3. Watch the demo video or inspect the
-   [demo video materials](https://github.com/PaperProofLabs/paperproof-demo-video).
+3. Watch the [demo video](https://www.youtube.com/watch?v=OjRZrhqZ4ZY).
 4. Inspect the [pitch deck](https://github.com/PaperProofLabs/paperproof-slides).
 5. Check the [contracts](https://github.com/PaperProofLabs/paperproof-contracts)
    and [deployment notes](../deployments/README.md).
@@ -19,6 +18,9 @@
 - Artifact versioning with content hashes and blob references.
 - Published SDKs for TypeScript, Python, and Rust.
 - Agent-native operation through PaperProof Skill.
+- Formal verification by Sui Prover in the
+  [formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge)
+  branch.
 - Event and object design suitable for indexers and ecosystem integrations.
 
 ## Track Fit
