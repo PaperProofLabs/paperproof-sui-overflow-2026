@@ -2,9 +2,14 @@
 
 ## One-Line Summary
 
-PaperProof Protocol is a Sui + Walrus protocol for durable, verifiable,
-versioned, and community-governed research artifacts and long-lived digital
-works.
+PaperProof Protocol is a live Sui + Walrus provenance layer for durable,
+verifiable, versioned, and community-governed knowledge artifacts.
+
+## Tagline
+
+Git-style version history, Walrus-backed content, and Sui-anchored provenance
+for papers, datasets, software releases, reports, blogs, forums, and
+AI-generated knowledge.
 
 ## Problem
 
@@ -19,16 +24,29 @@ inspectable, updateable, and discussable over time.
 - Community discussion and governance are usually detached from the artifact.
 - Developers need protocol-level events, SDKs, and verifiable references rather
   than screenshots of a web page.
+- AI agents need exact, durable, machine-readable artifact state for citation,
+  verification, and automated workflows.
 
 ## Solution
 
 PaperProof gives each work a stable on-chain identity on Sui and binds each
 version to durable Walrus content. The protocol records artifact series,
 version metadata, content hashes, blob references, comments, likes/dislikes,
-governance hooks, and indexer-friendly events.
+governance hooks, prompt and memory registries, and indexer-friendly events.
 
 The website is one access layer. SDKs and the PaperProof Skill expose the same
-protocol to developers, scripts, indexers, and AI agents.
+protocol to developers, scripts, indexers, third-party portals, and AI agents.
+
+## Live Today
+
+| Surface | Status |
+| --- | --- |
+| Mainnet contracts | Publishing, comments, governance, PPRF, prompt registry, and Agent Memory registry deployed on Sui mainnet. |
+| Official website | Live at [paperproof.site](https://paperproof.site/). |
+| Walrus-backed content | Used for papers, slides, docs, blogs, forum content, software releases, datasets, and versioned artifact payloads. |
+| SDKs | TypeScript, Python, and Rust SDKs published on npm, PyPI, and crates.io. |
+| AI/Agent | Configurable website Copilot with MemWal-backed memory plus the external PaperProof Skill. |
+| Protocol materials | Whitepaper, yellow paper, academic paper, slides, screenshots, demo video, and deployment evidence are public. |
 
 ## Target Users
 
@@ -39,30 +57,32 @@ protocol to developers, scripts, indexers, and AI agents.
   tools.
 - AI agents that need durable, machine-readable, verifiable artifact state.
 
-## Current Status
+## What Makes It Different
 
-- Mainnet contracts: deployed on Sui mainnet.
-- Official static app: live at [https://paperproof.site/](https://paperproof.site/).
-- TypeScript SDK: published as [@paperproof/sdk-ts](https://www.npmjs.com/package/@paperproof/sdk-ts).
-- Python SDK: published as [paperproof-sdk-py](https://pypi.org/project/paperproof-sdk-py/).
-- Rust SDK: published as [paperproof-sdk-rs](https://crates.io/crates/paperproof-sdk-rs).
-- Papers: whitepaper, yellow paper, and academic paper in
-  [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers).
-- Slides: hackathon pitch deck in
-  [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides).
-- Skill for AI/Agent: community-facing
-  [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill).
+PaperProof is not a file upload app or a simple Walrus blob demo. It is a
+protocol surface for durable artifact provenance:
+
+- Sui anchors identity, lineage, commitments, governance, comments, likes, and
+  events.
+- Walrus stores large content bytes efficiently.
+- The indexer makes shared public pages fast without becoming the trust root.
+- SDKs make the protocol usable by applications and services.
+- Copilot and Skill workflows make the protocol usable by humans and AI agents.
+- PaperProof uses itself in production: its own docs, blog, forum posts, papers,
+  slides, SDK releases, datasets, and Skill releases are represented as
+  PaperProof artifacts.
 
 ## Hackathon Scope
 
 This submission focuses on the deployed protocol, official website, SDKs,
-Walrus-backed artifact storage, Sui mainnet verification, and agent-native
-PaperProof workflows. It is presented as a working protocol stack rather than a
-single demo script.
+Walrus-backed artifact storage, Sui mainnet verification, server-side indexed
+content, and agent-native PaperProof workflows. It is presented as a working
+protocol stack rather than a single demo script.
 
 ## Current Limitations
 
 PaperProof is still early-stage infrastructure. The current website and SDKs
 cover the core workflow, but broader ecosystem adoption will require more
-indexer services, richer governance operations, additional app integrations,
-and more community-published artifacts.
+third-party portals, richer governance operations, additional app integrations,
+more community-published artifacts, and continued hardening of indexing and
+agent workflows.
