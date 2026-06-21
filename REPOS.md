@@ -25,7 +25,7 @@ and demo assets without wading through an artificial monorepo copy.
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) | Whitepaper, yellow paper, and academic paper. |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) | Hackathon pitch deck and figures. |
 | Screenshots | [screenshots/](screenshots/) | Website, SDK, GitHub organization, formal verification, and Skill screenshots copied into this submission repository. |
-| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) | Public demo video for the hackathon submission. |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=bIRykM53iFA) | Public demo video for the hackathon submission. |
 | Submission hub | [paperproof-sui-overflow-2026](https://github.com/PaperProofLabs/paperproof-sui-overflow-2026) | Judge-facing table of contents and deployment evidence. |
 
 ## Published Packages

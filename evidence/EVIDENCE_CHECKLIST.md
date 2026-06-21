@@ -32,7 +32,7 @@ and linked repositories.
 
 - Papers: [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers)
 - Slides: [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides)
-- Demo video: [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY)
+- Demo video: [YouTube](https://www.youtube.com/watch?v=bIRykM53iFA)
 - Formal verification by Sui Prover:
   [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge)
 

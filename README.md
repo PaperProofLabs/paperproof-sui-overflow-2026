@@ -117,7 +117,7 @@ mockup or contract demo.
 | Formal verification by Sui Prover | [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge) |
 | Papers | [whitepaper, yellow paper, academic paper](https://github.com/PaperProofLabs/paperproof-papers) |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) |
-| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=bIRykM53iFA) |
 
 ## What Judges Can Verify Quickly
 
@@ -136,7 +136,7 @@ mockup or contract demo.
 | Live website | [paperproof.site](https://paperproof.site/) |
 | GitHub organization | [github.com/PaperProofLabs](https://github.com/PaperProofLabs) |
 | Project repo / submission hub | [paperproof-sui-overflow-2026](https://github.com/PaperProofLabs/paperproof-sui-overflow-2026) |
-| Demo video | [YouTube](https://www.youtube.com/watch?v=OjRZrhqZ4ZY) |
+| Demo video | [YouTube](https://www.youtube.com/watch?v=bIRykM53iFA) |
 | Pitch deck | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) |
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) |
 | Mainnet deployment notes | [deployments/README.md](deployments/README.md) |

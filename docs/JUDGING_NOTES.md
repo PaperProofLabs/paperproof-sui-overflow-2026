@@ -4,7 +4,7 @@
 
 1. Read the root [README](../README.md).
 2. Open the live app at [https://paperproof.site/](https://paperproof.site/).
-3. Watch the [demo video](https://www.youtube.com/watch?v=OjRZrhqZ4ZY).
+3. Watch the [demo video](https://www.youtube.com/watch?v=bIRykM53iFA).
 4. Inspect the [pitch deck](https://github.com/PaperProofLabs/paperproof-slides).
 5. Check the [contracts](https://github.com/PaperProofLabs/paperproof-contracts)
    and [deployment notes](../deployments/README.md).
