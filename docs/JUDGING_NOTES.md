@@ -12,7 +12,7 @@
 6. Check the [deployment notes](../deployments/README.md), primary publishing
    package, shared objects, and explorer links.
 7. Check the SDK packages on npm, PyPI, and crates.io.
-8. Inspect the [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill)
+8. Inspect the [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-community-skill)
    and the Copilot evidence to see the agent-native surface.
 
 ## What To Look For

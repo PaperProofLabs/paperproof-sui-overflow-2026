@@ -14,7 +14,7 @@ without wading through an artificial monorepo copy.
 | Live website implementation | [paperproof-app](https://github.com/PaperProofLabs/paperproof-app) | Explore, publish, add version, comments, governance, docs, blog, forum, Copilot, wallet flows, and server-side indexed content. |
 | Event/indexing layer | [paperproof-indexer-reference](https://github.com/PaperProofLabs/paperproof-indexer-reference) | Query acceleration and server-side content parsing for app-facing pages. |
 | Developer SDKs | [TypeScript](https://github.com/PaperProofLabs/paperproof-sdk-ts), [Python](https://github.com/PaperProofLabs/paperproof-sdk-py), [Rust](https://github.com/PaperProofLabs/paperproof-sdk-rs) | App builders, scripts, services, indexers, and verification tooling. |
-| AI/agent operation | [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill) | Protocol-native publish, update, package, upload, query, verify, and cite workflows for AI agents. |
+| AI/agent operation | [paperproof-community-skill](https://github.com/PaperProofLabs/paperproof-community-skill) | Protocol-native publish, update, package, upload, query, verify, and cite workflows for AI agents. |
 | Official knowledge artifacts | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers), [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides), [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs) | Whitepaper, yellow paper, academic paper, slides, docs, screenshots, blog/forum content, and project skills. |
 
 ## Core Implementation
@@ -28,7 +28,7 @@ without wading through an artificial monorepo copy.
 | TypeScript SDK | [paperproof-sdk-ts](https://github.com/PaperProofLabs/paperproof-sdk-ts) | Browser and Node.js SDK for app builders, transaction helpers, query providers, and event parsing. | Published as [@paperproof/sdk-ts](https://www.npmjs.com/package/@paperproof/sdk-ts). |
 | Python SDK | [paperproof-sdk-py](https://github.com/PaperProofLabs/paperproof-sdk-py) | Python SDK for scripting, notebooks, analytics, exports, and automation. | Published as [paperproof-sdk-py](https://pypi.org/project/paperproof-sdk-py/). |
 | Rust SDK | [paperproof-sdk-rs](https://github.com/PaperProofLabs/paperproof-sdk-rs) | Rust SDK for services, indexers, and high-performance integrations. | Published as [paperproof-sdk-rs](https://crates.io/crates/paperproof-sdk-rs). |
-| Skill for AI/Agent | [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill) | Community-facing AI/agent skill for protocol-native publish, update, query, and verification workflows. | Skill repo screenshot and update-version demo screenshot in [screenshots/skill-repo](screenshots/skill-repo/). |
+| Skill for AI/Agent | [paperproof-community-skill](https://github.com/PaperProofLabs/paperproof-community-skill) | Community-facing AI/agent skill for protocol-native publish, update, query, and verification workflows. | Skill repo screenshot and update-version demo screenshot in [screenshots/skill-repo](screenshots/skill-repo/). |
 
 ## Materials and Public Evidence
 

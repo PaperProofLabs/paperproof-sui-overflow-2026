@@ -55,7 +55,7 @@ and linked repositories.
 ## AI/Agent Evidence
 
 - PaperProof Skill repository:
-  [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill)
+  [paperproof-community-skill](https://github.com/PaperProofLabs/paperproof-community-skill)
 - PaperProof Skill artifact page:
   [software release artifact](https://paperproof.site/#/artifact/PaperProof-software_release-001162-c5930499d055)
 - Skill screenshots: [screenshots/skill-repo/](../screenshots/skill-repo/)

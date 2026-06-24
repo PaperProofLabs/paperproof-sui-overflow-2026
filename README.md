@@ -9,7 +9,7 @@
 [![Demo Video](https://img.shields.io/badge/Demo-YouTube-c4302b?style=for-the-badge)](https://www.youtube.com/watch?v=bIRykM53iFA)
 [![Sui Mainnet](https://img.shields.io/badge/Sui-Mainnet-2563eb?style=for-the-badge)](deployments/README.md)
 [![Walrus Backed](https://img.shields.io/badge/Walrus-Backed-6d28d9?style=for-the-badge)](docs/ARCHITECTURE.md)
-[![Agent Native](https://img.shields.io/badge/Agent--Native-Skill%20%2B%20Copilot-b45309?style=for-the-badge)](https://github.com/PaperProofLabs/paperproof-skill)
+[![Agent Native](https://img.shields.io/badge/Agent--Native-Skill%20%2B%20Copilot-b45309?style=for-the-badge)](https://github.com/PaperProofLabs/paperproof-community-skill)
 
 PaperProof is a live **mainnet provenance layer for durable knowledge artifacts
 on Sui and Walrus**. Each artifact gets a stable Sui identity, typed version
@@ -75,7 +75,7 @@ objects, content hashes, and Walrus blob references.
 | Walrus usage | Durable content layer for artifact bytes, docs, blogs, forum posts, papers, slides, datasets, and release packages. |
 | Self-dogfooding | PaperProof's own papers, slides, Skill releases, docs, blog, forum posts, SDK releases, and datasets are represented as PaperProof artifacts. |
 | SDKs | Published on [npm](https://www.npmjs.com/package/@paperproof/sdk-ts), [PyPI](https://pypi.org/project/paperproof-sdk-py/), and [crates.io](https://crates.io/crates/paperproof-sdk-rs). |
-| AI/Agent | Configurable website Copilot with MemWal-backed memory plus the external [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill). |
+| AI/Agent | Configurable website Copilot with MemWal-backed memory plus the external [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-community-skill). |
 | Safety | OpenZeppelin-style `two_step_transfer`, source-available Move contracts, tests, and a separate [Sui Prover formal-verification branch](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge). |
 | Pitch deck | [paperproof-slides.pdf](https://github.com/PaperProofLabs/paperproof-slides/blob/main/paperproof-slides.pdf). |
 
@@ -91,7 +91,7 @@ developer environment to verify the core submission evidence.
 | 3 | [Deployment notes](deployments/README.md) | Mainnet package IDs and shared object IDs are explicit. |
 | 4 | [SuiVision](https://suivision.xyz/package/0xc9a75e4514db2a37df6f95b4e2b329c065ac6089953bd2c1c0a0c389835bd3d8) or [Suiscan](https://suiscan.xyz/mainnet/object/0xc9a75e4514db2a37df6f95b4e2b329c065ac6089953bd2c1c0a0c389835bd3d8) | The primary publishing package exists on Sui mainnet. |
 | 5 | [YouTube demo](https://www.youtube.com/watch?v=bIRykM53iFA) | Publishing, adding versions, browsing artifacts, comments, packages, docs, blog, forum, and closing slides are demonstrated. |
-| 6 | [SDK releases](#project-completeness) and [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill) | Developers and AI agents have public integration surfaces. |
+| 6 | [SDK releases](#project-completeness) and [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-community-skill) | Developers and AI agents have public integration surfaces. |
 
 ## What Judges Can Verify in 5 Minutes
 
@@ -104,7 +104,7 @@ developer environment to verify the core submission evidence.
    [SuiVision](https://suivision.xyz/package/0xc9a75e4514db2a37df6f95b4e2b329c065ac6089953bd2c1c0a0c389835bd3d8)
    or [Suiscan](https://suiscan.xyz/mainnet/object/0xc9a75e4514db2a37df6f95b4e2b329c065ac6089953bd2c1c0a0c389835bd3d8).
 4. Review the public SDK releases on npm, PyPI, and crates.io.
-5. Inspect the [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill)
+5. Inspect the [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-community-skill)
    and the website Copilot docs to see how AI agents can operate the protocol.
 6. Open the [demo video](https://www.youtube.com/watch?v=bIRykM53iFA),
    [slides](https://github.com/PaperProofLabs/paperproof-slides/blob/main/paperproof-slides.pdf),
@@ -221,7 +221,7 @@ or isolated contract demo.
 | TypeScript SDK | Published on [npm](https://www.npmjs.com/package/@paperproof/sdk-ts) |
 | Python SDK | Published on [PyPI](https://pypi.org/project/paperproof-sdk-py/) |
 | Rust SDK | Published on [crates.io](https://crates.io/crates/paperproof-sdk-rs) |
-| Skill for AI/Agent | [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-skill) |
+| Skill for AI/Agent | [PaperProof Skill](https://github.com/PaperProofLabs/paperproof-community-skill) |
 | Website Copilot | Configurable model provider + MemWal-backed memory |
 | Contracts | [paperproof-contracts](https://github.com/PaperProofLabs/paperproof-contracts) |
 | Formal verification by Sui Prover | [paperproof-contracts/formal-verification-merge](https://github.com/PaperProofLabs/paperproof-contracts/tree/formal-verification-merge) |
@@ -243,7 +243,7 @@ Each implementation repository remains canonical for its component.
 | TypeScript SDK | [paperproof-sdk-ts](https://github.com/PaperProofLabs/paperproof-sdk-ts) | Browser/Node SDK, transaction helpers, query providers, event parsing. |
 | Python SDK | [paperproof-sdk-py](https://github.com/PaperProofLabs/paperproof-sdk-py) | Python scripting, notebooks, analytics, export, and automation. |
 | Rust SDK | [paperproof-sdk-rs](https://github.com/PaperProofLabs/paperproof-sdk-rs) | Service/indexer-oriented SDK for high-throughput integrations. |
-| Agent skill | [paperproof-skill](https://github.com/PaperProofLabs/paperproof-skill) | Agent-native publish, update, verify, cite, and package workflows. |
+| Agent skill | [paperproof-community-skill](https://github.com/PaperProofLabs/paperproof-community-skill) | Agent-native publish, update, verify, cite, and package workflows. |
 | Docs and screenshots | [paperproof-docs](https://github.com/PaperProofLabs/paperproof-docs) | Official docs, screenshots, blog/forum content, skills, and research notes. |
 | Papers | [paperproof-papers](https://github.com/PaperProofLabs/paperproof-papers) | Whitepaper, yellow paper, academic paper, figures, and compiled PDFs. |
 | Slides | [paperproof-slides](https://github.com/PaperProofLabs/paperproof-slides) | Pitch deck and architecture figures. |
